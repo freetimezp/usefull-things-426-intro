@@ -1,23 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" href="/vite.svg" type="image/svg+xml" />
+
         <link rel="stylesheet" href="./src/assets/css/style.css" />
-        <title>Project</title>
+
+        <title>project</title>
     </head>
 
     <body>
-        <div class="preloader-counter">
-            <h1>0</h1>
+        <!-- PRELOADER -->
+        <div class="preloader">
+            <div class="preloader-counter">
+                <h1>0</h1>
+                <span>DEVELOPING</span>
+            </div>
+
+            <div class="loader-line"></div>
         </div>
 
+        <!-- FILM EFFECTS -->
+        <div class="film-grain"></div>
+        <div class="film-vignette"></div>
+        <div class="film-scan"></div>
+
+        <!-- NAV -->
         <nav>
             <div class="nav-logo">
-                <a href="#">Canon</a>
+                <a href="#">FAMILY</a>
+                <span>BIRMINGHAM · 1919</span>
             </div>
+
             <div class="nav-links">
                 <a href="#">Index</a>
                 <a href="#">Collection</a>
@@ -25,21 +40,47 @@
                 <a href="#">Gallery</a>
                 <a href="#">Contact</a>
             </div>
+
+            <div class="nav-status">
+                <span class="status-dot"></span>
+                <span>ARCHIVE 01</span>
+            </div>
         </nav>
 
+        <!-- HERO -->
         <section class="hero">
             <div class="hero-bg">
-                <img src="./src/assets/images/hero.jpg" alt="" />
+                <img
+                    src="./src/assets/images/hero.jpg"
+                    alt="Birmingham portrait"
+                />
+
+                <div class="image-overlay"></div>
+            </div>
+
+            <div class="hero-meta">
+                <span>PRIVATE COLLECTION</span>
+                <span>NO. 01</span>
             </div>
 
             <div class="header">
-                <h1>Canon</h1>
+                <div class="header-small">
+                    <span>THE</span>
+                    <span>STORY</span>
+                </div>
+
+                <h1>London</h1>
             </div>
 
             <div class="hero-footer">
                 <p>Permanence</p>
                 <p>Craftsmanship</p>
                 <p>Expression</p>
+            </div>
+
+            <div class="location">
+                <span>52°29' N</span>
+                <span>1°54' W</span>
             </div>
 
             <div class="progress-bar">
